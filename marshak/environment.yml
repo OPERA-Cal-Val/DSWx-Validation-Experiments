@@ -15,6 +15,7 @@ dependencies:
  - numpy
  - matplotlib
  - fiona
+ - gdal>=3.0
  - geopandas
  - boto3
  - asf_search>=3.0.4
@@ -23,3 +24,5 @@ dependencies:
  - contextily
  - scikit-image
  - scikit-learn
+ - pip:
+   dem-stitcher>=2.2.0
