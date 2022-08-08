@@ -8,6 +8,7 @@ dependencies:
  - jupyter
  - papermill
  - ipykernel
+ - ipympl=0.8.8
  - rasterio
  - shapely
  - dateparser
@@ -24,5 +25,7 @@ dependencies:
  - contextily
  - scikit-image
  - scikit-learn
+ - planet
+ - python-dotenv
  - pip:
    dem-stitcher>=2.2.0
