@@ -1,0 +1,30 @@
+name: dswx_calval
+channels:
+ - conda-forge
+ - anaconda
+ - defaults
+dependencies:
+ - python>=3.9
+ - jupyter
+ - papermill
+ - ipykernel
+ - rasterio
+ - shapely
+ - dateparser
+ - requests
+ - numpy
+ - matplotlib
+ - fiona
+ - gdal>=3.0
+ - geopandas
+ - boto3
+ - asf_search>=3.0.4
+ - tqdm
+ - pip
+ - contextily
+ - scikit-image
+ - scikit-learn
+ - planet
+ - python-dotenv
+ - pip:
+   - dem-stitcher>=2.2.0
