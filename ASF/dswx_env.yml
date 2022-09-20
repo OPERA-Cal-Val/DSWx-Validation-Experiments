@@ -26,5 +26,7 @@ dependencies:
  - scikit-learn
  - planet
  - python-dotenv
+ - ipympl
+ - ipywidgets<8.0.0
  - pip:
    - dem-stitcher>=2.2.0
