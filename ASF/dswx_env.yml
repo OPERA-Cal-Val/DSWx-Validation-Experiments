@@ -28,5 +28,9 @@ dependencies:
  - python-dotenv
  - ipympl
  - ipywidgets<8.0.0
+ - ipyfilechooser
+ - xarray
+ - rioxarray
+ - s3fs
  - pip:
    - dem-stitcher>=2.2.0
